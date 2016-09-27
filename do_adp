@@ -1,0 +1,12 @@
+#!/bin/bash
+
+python align_trj.py -ref ../02_rotate_whole/adp/alignd_acrding_to_linker_Paxis_adp.pdb \
+                    -trj trj_list_adp.inp \
+		    --selection selectionList.inp \
+		    --prefix "rmsd_adp"
+
+#python align_trj.py -ref ../02_rotate_whole/adp/alignd_acrding_to_stalk_Paxis_adp.pdb \
+#                    -trj trj_list_adp.inp \
+#		    --selection selectionList.inp \
+#		    --prefix "rmsd_adp"
+#

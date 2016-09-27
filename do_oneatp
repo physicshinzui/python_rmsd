@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#python align_trj.py -ref ../02_rotate_whole/oneatp/alignd_acrding_to_linker_Paxis_oneatp.pdb \
+#                    -trj trj_list_oneatp.inp \
+#		    --selection selectionList.inp \
+#		    --prefix "rmsd_oneatp"
+
+python align_trj.py -ref ../02_rotate_whole/oneatp/alignd_acrding_to_stalk_Paxis_oneatp.pdb\
+                    -trj trj_list_oneatp.inp \
+		    --selection selectionList.inp \
+		    --prefix "rmsd_oneatp"
